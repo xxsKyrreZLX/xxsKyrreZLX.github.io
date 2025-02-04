@@ -9,64 +9,52 @@
     "heroSentence": "a professional game developer",
     "projects": [
       {
-        "name": "Lorem Ipsum1",
+        "name": "Pirate Assassin",
         "year": "2024",
-        "keywords": ["Unreal Engine", "Shader"],
-        "shortDesc": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "coverImage": "/projects/cleo/cover.jpg",
-        "roles": ["Sole Developer", "Co-designer"],
+        "keywords": [ "Unreal Engine", "Shader" ],
+        "shortDesc": "Pirate Assassin is a RPG game features gameplay systems including combat system, skills, animations, quests, and inventory management.",
+        "coverImage": "/projects/RPG/cover.png",
+        "roles": [ "Developer", "Designer" ],
         "highlights": [
-          "Innovated a ping-pong rendering system for seamless scene transitions.",
-          "Engineered a browser-based scene editor for real-time animation editing by animators.",
-          "Conceptualized and implemented interactive particle effects and sand transitions using shader.",
-          "Developed sophisticated lighting effects."
+          "The movement system has various basic movements, including running, jumping, wall climbing, and vaulting",
+          "The combat system allow the player to engage in melee combat, archery, block attacks with a shield, and perform evasive rolls to dodge incoming attacks.",
+          "Inventory system enables players to gather loot through exploration, defeating enemies, or completing quests.",
+          "Implemented quest and save system to cope with game data"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+            "value": "Pirate Assassin is a RPG game features gameplay systems including combat system, skills, animations, quests, and inventory management. Players engage in battles, explore quests,defeat and assassinate enemies. The project highlights my ability to be a game engineer and designer."
           },
           {
-            "value": "/projects/cleo/1.jpg",
+            "value": "/projects/RPG/1.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "I built the level using assets and Unreal Engine’s Landscape System. I sculpted the terrain, added textures, and placed environmental assets like buildings and foliage to create an immersive scene."
+          },
+          {
+            "value": "/projects/RPG/1.png",
             "type": "image"
           },
           {
-            "value": "/projects/cleo/1.mp4",
-            "type": "video-muted"
+            "type": "paragraph",
+            "value": "I also added many interesting features like riding and swimming."
           },
           {
-            "value": "/projects/cleo/2.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/3.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/4.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/5.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/6.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/7.mp4",
-            "type": "video-muted"
+            "value": "/projects/RPG/2.png",
+            "type": "image"
           }
         ]
       },
       {
-        "name": "Lorem Ipsum2",
+        "name": "Technical Artist Works",
         "year": "2024",
-        "keywords": ["Unreal Engine", "Shader"],
-        "shortDesc": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "coverImage": "/projects/bca/cover.jpg",
-        "roles": ["Sole Developer", "Co-designer"],
+        "keywords": [ "Unreal Engine", "Material", "Niagara" ],
+        "shortDesc": "Unreal Engine has high-quality materials and effects, which inspired me to dive deep into their creation.Through continuous learning and experimentation, I strive to push the visual quality of my work to match UE's high standards.",
+        "coverImage": "/projects/TAWorks/cover.png",
+        "roles": [ "Technical Artist" ],
         "highlights": [
           "Innovated a ping-pong rendering system for seamless scene transitions.",
           "Engineered a browser-based scene editor for real-time animation editing by animators.",
@@ -76,27 +64,27 @@
         "detail": [
           {
             "type": "paragraph",
-            "value": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+            "value": "This is an interactive snow material that dynamically deforms with footprints by rendering a height map. The system uses a Render Target as a canvas to capture foot patterns via ray tracing and applies them to the snow surface in real time. To handle large scenes, the canvas moves with the character, preserving footprints and fading distant ones. Snow buildup is simulated by blurring footprints, generating a height map to represent depth. Realistic lighting and terrain displacement are achieved using normal maps and Virtual Heightfield Mesh."
           },
           {
-            "value": "/projects/bca/reel.mp4",
+            "value": "/projects/TAWorks/SnowField.mp4",
             "type": "video"
           },
           {
-            "value": "/projects/bca/1.jpg",
-            "type": "image"
+            "type": "paragraph",
+            "value": "This effect simulates a natural transformation between two objects. The dynamic material gradually turns the original object red before fading it out, while a Niagara particle stream flows from the original object to the target, visually linking the transformation. As the particles reach the target, a new object appears, creating a smooth and immersive morphing effect."
           },
           {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "value": "/projects/TAWorks/DissolveShowup.mp4",
+            "type": "video"
+          },
+          {
+            "value": "I created dynamic materials to simulate transformations like freezing and melting transformations. By adding masks, noise, UV manipulation and special techniques like Fresnel highlights to a base texture to add depth and realism to the material.",
             "type": "paragraph"
           },
           {
-            "value": "/projects/bca/2.jpg",
-            "type": "image"
-          },
-          {
-            "value": "/projects/bca/3.jpg",
-            "type": "image"
+            "value": "/projects/TAWorks/Frozen.mp4",
+            "type": "video"
           }
         ]
       },
@@ -195,11 +183,11 @@
     ],
     "skills": [
       {
-        "group": "Technical Skills",
+        "group": "Skills",
         "skills": [
-          "Programming Languages: C++, Python, JavaScript",
+          "Programming Languages: C/C++, C#, JavaScript, Cuda, PHP, SQL",
           "Game Engines: Unreal Engine, Unity",
-          "Tools/Frameworks: Git, Three.js, LiquidFun, Blender"
+          "Tools/Frameworks: Git, P4V, Vue, SpringBoot"
         ]
       },
       {

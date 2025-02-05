@@ -24,9 +24,16 @@
               "RelativeDocumentMoniker": "config.json",
               "ToolTip": "F:\\\u4EE3\u7801\u9898\\LinkedinIO\\xxsKyrreZLX.github.io\\config.json",
               "RelativeToolTip": "config.json",
+<<<<<<< HEAD
               "ViewState": "AQIAAPAAAAAAAAAAAAAAAAABAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-04T01:44:18.372Z"
+=======
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-04T01:44:18.372Z",
+              "EditorCaption": ""
+>>>>>>> 66a725f8e4913cd1302ea6c16b906ddc67ce3625
             }
           ]
         }

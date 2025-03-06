@@ -56,10 +56,9 @@
         "coverImage": "/projects/TAWorks/cover.png",
         "roles": [ "Technical Artist" ],
         "highlights": [
-          "Innovated a ping-pong rendering system for seamless scene transitions.",
-          "Engineered a browser-based scene editor for real-time animation editing by animators.",
-          "Conceptualized and implemented interactive particle effects and sand transitions using shader.",
-          "Developed sophisticated lighting effects."
+          "Uses a height map and Render Target to capture and render footprints in real-time, with dynamic snow buildup and fading effects for large scenes",
+          "Utilizes Niagara particles and dynamic materials to create smooth object transitions with seamless visual blending.",
+          "Implements effects like freezing and melting using masks, noise, UV manipulation, and Fresnel highlights for added depth and realism."
         ],
         "detail": [
           {

@@ -1,0 +1,254 @@
+{
+  "basic": {
+    "name": "Lixin Zhu",
+    "email": "lz284@duke.com",
+    "linkedin": "https://www.linkedin.com/in/lixin-zhu-9ba085310/",
+    "resume": "Resume.pdf"
+  },
+  "home": {
+    "heroSentence": "game engineer, technical artist and software engineer",
+    "projects": [
+      {
+        "name": "Pirate Assassin",
+        "year": "2024",
+        "keywords": [ "Unreal Engine", "Shader" ],
+        "shortDesc": "Pirate Assassin is a RPG game features gameplay systems including combat system, skills, animations, quests, and inventory management.",
+        "coverImage": "/projects/RPG/cover.png",
+        "roles": [ "Developer", "Designer" ],
+        "highlights": [
+          "The movement system has various basic movements, including running, jumping, wall climbing, and vaulting",
+          "The combat system allow the player to engage in melee combat, archery, block attacks with a shield, and perform evasive rolls to dodge incoming attacks.",
+          "Inventory system enables players to gather loot through exploration, defeating enemies, or completing quests.",
+          "Implemented quest and save system to cope with game data"
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "Pirate Assassin is a RPG game features gameplay systems including combat system, skills, animations, quests, and inventory management. Players engage in battles, explore quests,defeat and assassinate enemies. The project highlights my ability to be a game engineer and designer."
+          },
+          {
+            "value": "/projects/RPG/1.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "I built the level using assets and Unreal Engine’s Landscape System. I sculpted the terrain, added textures, and placed environmental assets like buildings and foliage to create an immersive scene."
+          },
+          {
+            "value": "/projects/RPG/1.png",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "I also added many interesting features like riding and swimming."
+          },
+          {
+            "value": "/projects/RPG/2.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "name": "Technical Artist Works",
+        "year": "2024",
+        "keywords": [ "Unreal Engine", "Material", "Niagara" ],
+        "shortDesc": "Unreal Engine has high-quality materials and effects, which inspired me to dive deep into their creation.Through continuous learning and experimentation, I strive to push the visual quality of my work to match UE's high standards.",
+        "coverImage": "/projects/TAWorks/cover.png",
+        "roles": [ "Technical Artist" ],
+        "highlights": [
+          "Uses a height map and Render Target to capture and render footprints in real-time, with dynamic snow buildup and fading effects for large scenes",
+          "Utilizes Niagara particles and dynamic materials to create smooth object transitions with seamless visual blending.",
+          "Implements effects like freezing and melting using masks, noise, UV manipulation, and Fresnel highlights for added depth and realism."
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "This is an interactive snow material that dynamically deforms with footprints by rendering a height map. The system uses a Render Target as a canvas to capture foot patterns via ray tracing and applies them to the snow surface in real time. To handle large scenes, the canvas moves with the character, preserving footprints and fading distant ones. Snow buildup is simulated by blurring footprints, generating a height map to represent depth. Realistic lighting and terrain displacement are achieved using normal maps and Virtual Heightfield Mesh."
+          },
+          {
+            "value": "/projects/TAWorks/SnowField.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "This effect simulates a natural transformation between two objects. The dynamic material gradually turns the original object red before fading it out, while a Niagara particle stream flows from the original object to the target, visually linking the transformation. As the particles reach the target, a new object appears, creating a smooth and immersive morphing effect."
+          },
+          {
+            "value": "/projects/TAWorks/DissolveShowup.mp4",
+            "type": "video"
+          },
+          {
+            "value": "I created dynamic materials to simulate transformations like freezing and melting transformations. By adding masks, noise, UV manipulation and special techniques like Fresnel highlights to a base texture to add depth and realism to the material.",
+            "type": "paragraph"
+          },
+          {
+            "value": "/projects/TAWorks/Fire and frozen.mp4",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Collision Star",
+        "year": "2023",
+        "keywords": [ "Unity" ],
+        "shortDesc": "Collision Star is a 2D Unity multiplayer game blending strategy and physics. Two players can collaborate or compete by modifying the environment and using reverse-drag mechanics to move players' planets.",
+        "coverImage": "/projects/CollisionStar/cover.png",
+        "roles": [ "Developer", "Designer" ],
+        "highlights": [
+          "Players navigate obstacles, collect points, and compete using reverse drag-and-drop physics system.",
+          "Players can continuously alter the game environment and interact with them and the other player.",
+          "Iterative improvements based on player feedback to enhance gameplay and UI system."
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "Collision Star is a 2D Unity multiplayer game blending strategy and physics. Two players can collaborate or compete by modifying the environment and using reverse-drag mechanics to move players' planets. Players score points by colliding with objects, collecting items, and outwitting opponents while avoiding hazards like black holes and teleporters. Random power-ups and dynamic gameplay ensure a fun and competitive experience. Avaliable at https://github.com/xxsKyrreZLX/CollisionStar."
+          },
+          {
+            "value": "/projects/CollisionStar/CollisonStar.mp4",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Perfect World",
+        "year": "2023",
+        "keywords": [ "Unity", "Web Design" ],
+        "shortDesc": "During my internship at Perfect World, I developed a placement and inspection system in Unity,allowing interactive weapon positioning and lighting adjustments.I also built responsive web pages using Vue 2, designing leaderboards and data search features to enhance user interaction.",
+        "coverImage": "/projects/PW/PWE1.jpg",
+        "roles": [ "Technical Development Intern" ],
+        "highlights": [
+          "Hands-on experience in both game engine development and web technologies.",
+          "Working on real-world projects that required close collaboration with a professional team in game company",
+          "Honed my ability to address practical development challenges,workflows and deliver solutions to real production needs",
+          "Learnt from experienced engineers and experts."
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "I Utilized the Unity engine to design a firearm placement and inspection system in the Perfect World Esport (CS:GO). Implemented a virtual joystick and viewpoint control, enabling users to modify weapon positions and adjust lighting color tones interactively."
+          },
+          {
+            "value": "/projects/PW/PWWeapon.jpg",
+            "type": "image"
+          },
+          {
+            "value": "I Built associated web pages using the Vue 2 framework, with Flexible Box for responsive and structured design in the Perfect World Esport (CS:GO). Developed features including leaderboards and data search functionalities for enhanced user interaction. Product link:https://pvp.wanmei.com/",
+            "type": "paragraph"
+          },
+          {
+            "value": "/projects/PW/PWE2.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "name": "CodeTutor",
+        "year": "2024",
+        "keywords": [ "Web Design", "Code Analyze", "Visualization" ],
+        "shortDesc": "A code visualization platform designed to enhance the learning and teaching experience for programers. It supports visualization of data structures, providing an intuitive way to understand how various data structures evolve during code execution. It also includes integrated video conferencing capabilities so that learners can get help from others.",
+        "coverImage": "/projects/CodeTutor/Cover.png",
+        "roles": [ "Web Design", "Frontend Development" ],
+        "highlights": [
+          "Supports real-time visualization of various kinds of data structures.",
+          "Provides an engaging way for programmers to see code behavior dynamically, making complex concepts easier to grasp.",
+          "Has real time communicating functions including voice and video chat and screen share."
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "CodeTutor is a code visualization platform designed to enhance the learning and teaching experience for programers. It supports visualization of data structures, providing an intuitive way to understand how various data structures evolve during code execution. It also includes integrated video conferencing capabilities so that learners can get help from others."
+          },
+          {
+            "value": "/projects/CodeTutor/CodeTutor.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "Basic structure module supports real-time visualization of various kinds of data structures to help learners understand how they evolve step by step.."
+          },
+          {
+            "value": "/projects/CodeTutor/1.png",
+            "type": "image"
+          },
+          {
+            "value": "Running code module provides an engaging way for programmers to see code behavior dynamically when it is running, making complex concepts easier to grasp.",
+            "type": "paragraph"
+          },
+          {
+            "value": "/projects/CodeTutor/2.png",
+            "type": "image"
+          },
+          {
+            "value": "QA module allows learners to collaborate and seek help from instructors or peers within the platform through voice chat and screen share.",
+            "type": "paragraph"
+          },
+          {
+            "value": "/projects/CodeTutor/3.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "name": "Aiur Art Trading Website",
+        "year": "2022",
+        "keywords": [ "Web Design" ],
+        "shortDesc": "The Aiur Art Trading Website is a platform with both front-end and back-end functionalities. Users can manage their accounts, search by name, author, popularity, or rating, comment, buy, upload products, and view browsing history. The platform also have many features like secure password salting, dynamic password strength indicators, and responsive design.",
+        "coverImage": "/projects/ArtPlatform/image1.png",
+        "roles": [ "Frontend and Backend Development" ],
+        "highlights": [
+          "Developed using pure HTML, CSS, JavaScript, PHP, and SQL, without relying on frameworks. Getting Hands-on experience in fundamental web technologies.",
+          "Supports account management, advanced search, product uploads, purchases, comments, and browsing history tracking for a seamless user experience.",
+          "Enhanced front-end features such as product detail magnification, real-time password strength hints, and smooth scrolling windows for an improved user experience.",
+          "Password salting, secure authentication, and dynamic password strength indicators."
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "The Aiur Art Trading Website is a platform with both front-end and back-end functionalities. Users can manage their accounts, search by name, author, popularity, or rating, comment, buy, upload products, and view browsing history. The platform also have many features like secure password salting, dynamic password strength indicators, and responsive design."
+          },
+          {
+            "value": "/projects/ArtPlatform/image1.png",
+            "type": "image"
+          },
+          {
+            "value": "/projects/ArtPlatform/image1.png",
+            "type": "image"
+          },
+          {
+            "value": "/projects/ArtPlatform/image1.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "group": "Skills",
+        "skills": [
+          "Programming Languages: C/C++, C#, Cuda, PHP, SQL",
+          "Game Engines: Unreal Engine, Unity",
+          "Tools/Frameworks: Git, P4V, Vue, SpringBoot"
+        ]
+      },
+      {
+        "group": "Creative Skills",
+        "skills": [
+          "Technical Design: Niagara, VFX",
+          "Web Design: JavaScript,Vue ",
+          "Graphics Programming: WebGL"
+        ]
+      },
+      {
+        "group": "Soft Skills",
+        "skills": [
+          "Team Collaboration: Agile Methodologies, Jira",
+          "Problem Solving: Analytical Thinking, Debugging",
+          "Communication: Documentation, Presentation"
+        ]
+      }
+    ],
+    "bio": "I am deeply interested in game engineering and technical artistry, as I enjoy crafting immersive experiences through innovative mechanics, optimized systems, and compelling visual effects. Whether developing robust gameplay logic or pushing technical boundaries, I am eager to contribute my skills and creativity to build outstanding gaming experiences.",
+    "bioPic": "/Lixin Zhu.jpg"
+  }
+}

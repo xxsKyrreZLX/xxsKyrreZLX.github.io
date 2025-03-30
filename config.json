@@ -17,7 +17,7 @@
         "roles": [ "Developer", "Designer" ],
         "highlights": [
           "Designed skill data structures and event broadcasting using C++.",
-          "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE), and visual effects (GC).",
+          "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE) and presentation elements such as visual effects and sound effects(GC).",
           "Developed interaction rules such as combo execution, ability interruptions, and skill dependencies through tag tree.",
           "Implemented cooldown systems, energy/mana consumption, and regeneration mechanics."
         ],

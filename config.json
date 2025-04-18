@@ -9,58 +9,6 @@
     "heroSentence": "game engineer, technical artist and software engineer",
     "projects": [
       {
-        "name": "Sky Arena – Combat Demo for Thali",
-        "year": "2025",
-        "keywords": [ "Unreal Engine", "Gameplay Ability System" ],
-        "shortDesc": "Sky Arena showcases the combat system of Thali, a third-person RPG. Built using Unreal Engine’s Gameplay Ability System, it delivers a robust and dynamic combat experience.",
-        "coverImage": "/projects/SkyArena/cover.png",
-        "roles": [ "Developer", "Designer" ],
-        "highlights": [
-          "Designed skill data structures and event broadcasting using C++.",
-          "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE) and presentation elements such as visual effects and sound effects(GC).",
-          "Developed interaction rules such as combo execution, ability interruptions, and skill dependencies through tag tree.",
-          "Implemented cooldown systems, energy/mana consumption, and regeneration mechanics."
-        ],
-        "detail": [
-          {
-            "type": "paragraph",
-            "value": "Thali is a fantasy RPG that showcases the bond between the player and their dragon through its combat system. As the tech lead of the studio,I focus on building the combat system using Unreal Engine's Gameplay Ability System. This demo features Shinbi from Paragon as the character model."
-          },
-          {
-            "value": "/projects/SkyArena/General.png",
-            "type": "image"
-          },
-          {
-            "type": "paragraph",
-            "value": "The combo system in Thali is built using Unreal Engine’s Gameplay Ability System (GAS), with each attack phase represented by a separate ability. During each phase, a timing window allows the player to chain into the next attack. If the player misses the input or gets interrupted, the system ensures a proper reset, so the next attack starts from the first phase."
-          },
-          {
-            "value": "/projects/SkyArena/combo.mp4",
-            "type": "video"
-          },
-          {
-            "type": "paragraph",
-            "value": "Interruption feature: a character will react and be interrupted when attacked during an action. When a skill is interrupted, it properly ends to prevent the character from entering an abnormal state."
-          },
-          {
-            "value": "/projects/SkyArena/interruption.mp4",
-            "type": "video"
-          },
-          {
-            "type": "paragraph",
-            "value": "Sample skill: Dash. Dash is a fast-movement ability where the actor moves at high speed, passing through targets while applying effects to hit characters."
-          },
-          {
-            "value": "/projects/SkyArena/dash.mp4",
-            "type": "video"
-          },
-          {
-            "type": "paragraph",
-            "value": "More skills and features in coming..."
-          }
-        ]
-      },
-      {
         "name": "Pirate Assassin",
         "year": "2024",
         "keywords": [ "Unreal Engine", "Shader" ],
@@ -136,6 +84,94 @@
           {
             "value": "/projects/TAWorks/Fire and frozen.mp4",
             "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Working for Multimeida Project Studio(MPS)",
+        "year": "2025",
+        "keywords": [
+          "Part time",
+          "XR Developer",
+          "Game Developer"
+        ],
+        "shortDesc": "The MPS Studio is Duke's home for developing and experiencing Virtual Reality (VR), and Augmented Reality (AR). As an XR Game Developer, I actively contribute to VR game projects with a focus on both development and deployment across various platforms.",
+        "coverImage": "/projects/MPS/0.jpeg",
+        "roles": [ "XR Developer", "Game Developer" ],
+        "highlights": [
+          "Designed skill data structures and event broadcasting using C++.",
+          "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE) and presentation elements such as visual effects and sound effects(GC).",
+          "Developed interaction rules such as combo execution, ability interruptions, and skill dependencies through tag tree.",
+          "Implemented cooldown systems, energy/mana consumption, and regeneration mechanics."
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "Deployment & Quality Assurance: Implement features and perform QA tasks for VR games, including debugging, plugin/engine upgrades, and cross-platform performance testing. Build and deploy VR projects on Windows (HTC Vive) and Android (Meta Quest), ensuring optimization and stability."
+          },
+          {
+            "value": "/projects/MPS/4.jpeg",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "Game development isn't just about building mechanics in an engine—it's about sharing experiences and engaging with a passionate community. We just had an amazing showcase featuring VR games created by students at Duke. I was thrilled to be part of this event, contributing to the QA and debugging, building and preparing process to ensure a smooth and immersive experience for every guest. Really glad to meet everyone who came and to all developers. I'm proud to be part of a community that shares a love for games."
+          },
+          {
+            "value": "/projects/MPS/2.jpeg",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "name": "Sky Arena – Combat Demo for Thali",
+        "year": "2025",
+        "keywords": [ "Unreal Engine", "Gameplay Ability System" ],
+        "shortDesc": "Sky Arena showcases the combat system of Thali, a third-person RPG. Built using Unreal Engine’s Gameplay Ability System, it delivers a robust and dynamic combat experience.",
+        "coverImage": "/projects/SkyArena/cover.png",
+        "roles": [ "Developer", "Designer" ],
+        "highlights": [
+          "Designed skill data structures and event broadcasting using C++.",
+          "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE) and presentation elements such as visual effects and sound effects(GC).",
+          "Developed interaction rules such as combo execution, ability interruptions, and skill dependencies through tag tree.",
+          "Implemented cooldown systems, energy/mana consumption, and regeneration mechanics."
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "Thali is a fantasy RPG that showcases the bond between the player and their dragon through its combat system. As the tech lead of the studio,I focus on building the combat system using Unreal Engine's Gameplay Ability System. This demo features Shinbi from Paragon as the character model."
+          },
+          {
+            "value": "/projects/SkyArena/General.png",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "The combo system in Thali is built using Unreal Engine’s Gameplay Ability System (GAS), with each attack phase represented by a separate ability. During each phase, a timing window allows the player to chain into the next attack. If the player misses the input or gets interrupted, the system ensures a proper reset, so the next attack starts from the first phase."
+          },
+          {
+            "value": "/projects/SkyArena/combo.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "Interruption feature: a character will react and be interrupted when attacked during an action. When a skill is interrupted, it properly ends to prevent the character from entering an abnormal state."
+          },
+          {
+            "value": "/projects/SkyArena/interruption.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "Sample skill: Dash. Dash is a fast-movement ability where the actor moves at high speed, passing through targets while applying effects to hit characters."
+          },
+          {
+            "value": "/projects/SkyArena/dash.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "More skills and features in coming..."
           }
         ]
       },

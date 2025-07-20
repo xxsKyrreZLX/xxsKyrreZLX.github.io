@@ -9,6 +9,93 @@
     "heroSentence": "game engineer, technical artist and software engineer",
     "projects": [
       {
+        "name": "Mythos (By BrushBits)",
+        "year": "2025",
+        "keywords": [ "Unreal Engine 5", "GAS", "C++", "Combat Designer" ],
+        "shortDesc": "Built a modular RPG combat system in Unreal Engine 5 using GAS, focusing on precise damage calculation, skill targeting, and scalable architecture.",
+        "coverImage": "/projects/Mythos/1.jpg",
+        "roles": [ "Game Engineer", "Systems Designer" ],
+        "highlights": [
+          "Attribute System: Health, Mana, Stamina with max constraints; combat stats (Attack Power, Defense, Crit Chance/Damage); real-time monitoring with delegates",
+          "Damage Calculation: Multi-factor formulas with Attack Power, Defense, Crit; modular Execution Calculation for damage and healing",
+          "Skill Targeting: Mouse-based range checks, vector math for distance validation, AoE calculations from cursor position",
+          "Combat Mechanics: Crit system with configurable multipliers; defense-based damage reduction; modular, extensible skill system"
+        ],
+        "detail": [
+          {
+            "value": "/projects/Mythos/1.jpg",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "Mythos is a comprehensive RPG combat system built in Unreal Engine 5 using the Gameplay Ability System (GAS). My work in the project focuses on creating a modular, scalable architecture that can handle complex combat scenarios with precise damage calculations and sophisticated skill targeting systems."
+          },          
+          {
+            "value": "/projects/Mythos/4.jpg",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "The attribute system manages core stats including Health, Mana, and Stamina with maximum constraints, plus combat-specific attributes like Attack Power, Defense, Critical Chance, and Critical Damage. All attributes are monitored in real-time using delegate-driven event systems for responsive UI updates and gameplay feedback."
+          },
+          {
+            "value": "/projects/Mythos/MythosGASFrame.png",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "The damage calculation system uses multi-factor formulas incorporating Attack Power, Defense, and Critical mechanics. Built with modular Execution Calculations, it supports both damage and healing effects. The system includes configurable critical multipliers and defense-based damage reduction for balanced combat mechanics."
+          },
+          {
+            "value": "/projects/Mythos/MouseSkillDirection.jpg",
+            "type": "image"
+          },          
+          {
+            "type": "paragraph",
+            "value": "Skill targeting utilizes mouse-based range checks and vector mathematics for precise distance validation. The system supports Area of Effect (AoE) calculations from cursor position, enabling complex skill interactions. The clean C++ architecture follows Unreal Engine best practices with efficient attribute capture and debug visualization for real-time feedback."
+          }
+        ]
+      },
+      {
+        "name": "BlackForest (By Venture Games)",
+        "year": "2025",
+        "keywords": ["Unreal Engine 5", "Multiplayer", "Replication", "C++", "Blueprint"],
+        "shortDesc": "Developed a scalable multiplayer survival exploration system in Unreal Engine 5 with robust replication, synced player data systems, and interactive environment integration.",
+        "coverImage": "/projects/BlackForest/1.jpg",
+        "roles": ["Game Engineer", "Network Systems Designer"],
+        "highlights": [
+          "Network Architecture: Clean replication patterns for consistent multiplayer sync of player health, hunger, and thirst systems",
+          "Interactive World Objects: Harvestable and collectible systems with network-safe replication and HUD integration",
+          "HUD Systems: Real-time UI updates on personal and team states using delegates and RepNotify for clarity and responsiveness"
+        ],
+        "detail": [
+          {
+            "value": "/projects/BlackForest/1.jpg",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "BlackForest is a multiplayer survival exploration system developed in Unreal Engine 5, focusing on seamless network synchronization and immersive player experience. My work centers on implementing clean, scalable replication architecture, ensuring critical player data remains consistent across all clients while maintaining server authority."
+          },
+          {
+            "value": "/projects/BlackForest/2.jpg",
+            "type": "image"
+          },
+                      {
+              "type": "paragraph",
+              "value": "BlackForest features a dynamic multiplayer survival experience where players must manage health, hunger, and thirst while exploring a richly interactive environment. Teammates can cooperate to gather resources, share supplies, and overcome environmental challenges together. Collectible food and water sources, as well as other interactive world objects, encourage exploration and teamwork, making every session unique and engaging."
+            },
+          {
+            "value": "/projects/BlackForest/3.jpg",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "Throughout the project, I followed Unreal Engine best practices for multiplayer game architecture, balancing clarity with performance to build a foundation ready for future combat systems, AI, and complex environment interactions. This approach ensures players experience a stable, engaging survival environment whether playing solo or with friends."
+          }
+        ]
+      }, 
+      {
         "name": "Pirate Assassin",
         "year": "2024",
         "keywords": [ "Unreal Engine", "Shader" ],

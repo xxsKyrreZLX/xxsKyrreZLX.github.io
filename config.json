@@ -19,7 +19,7 @@
           "Attribute System: Health, Mana, Stamina with max constraints; combat stats (Attack Power, Defense, Crit Chance/Damage); real-time monitoring with delegates",
           "Damage Calculation: Multi-factor formulas with Attack Power, Defense, Crit; modular Execution Calculation for damage and healing",
           "Skill Targeting: Mouse-based range checks, vector math for distance validation, AoE calculations from cursor position",
-          "Combat Mechanics: Crit system with configurable multipliers; defense-based damage reduction; modular, extensible skill system"
+          "Combat Mechanics: Crit system with configurable multipliers; defense-based damage reduction; modular, extensible skill system. Link: https://github.com/xxsKyrreZLX/GasFrame"
         ],
         "detail": [
           {

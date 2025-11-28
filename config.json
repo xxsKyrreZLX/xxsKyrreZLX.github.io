@@ -136,24 +136,40 @@
         ]
       },
       {
-        "name": "Technical Artist Works",
-        "year": "2024",
-        "keywords": [ "Unreal Engine", "Material", "Niagara" ],
-        "shortDesc": "Unreal Engine has high-quality materials and effects, which inspired me to dive deep into their creation.Through continuous learning and experimentation, I strive to push the visual quality of my work to match UE's high standards.",
+        "name": "Rendering & Shader Development",
+        "year": "2025",
+        "keywords": [ "Shader", "OpenGL", "Rendering Pipeline", "Niagara" ],
+        "shortDesc": "Real-time visual effects and material systems created through shader programming and graphics techniques. Includes dynamic surface deformation, particle systems, and procedural material transformations.",
         "coverImage": "/projects/TAWorks/cover.png",
-        "roles": [ "Technical Artist" ],
+        "roles": [ "Graphics Programmer", "Rendering Engineer" ],
         "highlights": [
-          "Uses a height map and Render Target to capture and render footprints in real-time, with dynamic snow buildup and fading effects for large scenes",
-          "Utilizes Niagara particles and dynamic materials to create smooth object transitions with seamless visual blending.",
-          "Implements effects like freezing and melting using masks, noise, UV manipulation, and Fresnel highlights for added depth and realism."
+          "Real-time height map rendering and render target systems for dynamic surface deformation",
+          "Shader-based particle systems and dynamic material blending for smooth visual transitions",
+          "Procedural shader effects using masks, noise, UV manipulation, and Fresnel calculations"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "This is an interactive snow material that dynamically deforms with footprints by rendering a height map. The system uses a Render Target as a canvas to capture foot patterns via ray tracing and applies them to the snow surface in real time. To handle large scenes, the canvas moves with the character, preserving footprints and fading distant ones. Snow buildup is simulated by blurring footprints, generating a height map to represent depth. Realistic lighting and terrain displacement are achieved using normal maps and Virtual Heightfield Mesh."
+            "value": "An interactive snow material that dynamically deforms with footprints by rendering a height map. The system uses a Render Target as a canvas to capture foot patterns via ray tracing and applies them to the snow surface in real time. To handle large scenes, the canvas moves with the character, preserving footprints and fading distant ones. Snow buildup is simulated by blurring footprints, generating a height map to represent depth. Realistic lighting and terrain displacement are achieved using normal maps and Virtual Heightfield Mesh."
           },
           {
             "value": "/projects/TAWorks/SnowField.mp4",
+            "type": "video"
+          },
+          {
+            "type": "paragraph",
+            "value": "Built a rendering engine from scratch using modern OpenGL 3.3 Core Profile. The engine handles buffer management, custom shader compilation with file parsing, texture loading, and MVP matrix transformations. Implemented with a modular class structure and integrated ImGui for debugging. Source code available at https://github.com/xxsKyrreZLX/OpenGL."
+          },
+          {
+            "value": "/projects/TAWorks/OpenGL.png",
+            "type": "image"
+          },
+          {
+            "type": "paragraph",
+            "value": "Created various 2D and 3D shader experiments on Shadertoy using Fragment Shaders. Projects include real-time 3D scenes rendered with Signed Distance Fields (SDF) and Ray Marching, featuring interactive camera controls and realistic lighting. Also explored fractal iterations and procedural generation techniques to create dynamic patterns with neon glow effects. Available at https://www.shadertoy.com/user/xxskyrre."
+          },
+          {
+            "value": "/projects/TAWorks/Shadertoy.mp4",
             "type": "video"
           },
           {

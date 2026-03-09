@@ -1,117 +1,83 @@
 {
   "basic": {
-    "name": "Lixin Zhu",
-    "email": "lz284@duke.com",
+    "name": "朱立新",
+    "email": "lz284@duke.edu",
     "linkedin": "https://www.linkedin.com/in/lixin-zhu-9ba085310/",
     "resume": "Resume.pdf"
   },
   "home": {
-    "heroSentence": "game engineer, technical graphic artist and software engineer",
+    "heroSentence": "热爱游戏的设计师，有电竞选手和教练经历，在深度游玩基础上善于分析机制、思考设计并观察玩家体验",
     "projects": [
-      {
-        "name": "Mythos (By BrushBits)",
-        "year": "2025",
-        "keywords": [ "Unreal Engine 5", "GAS", "C++", "Combat Designer" ],
-        "shortDesc": "Built a modular RPG combat system in Unreal Engine 5 using GAS, focusing on precise damage calculation, skill targeting, and scalable architecture.",
-        "coverImage": "/projects/Mythos/1.jpg",
-        "roles": [ "Game Engineer", "Systems Designer" ],
-        "highlights": [
-          "Attribute System: Health, Mana, Stamina with max constraints; combat stats (Attack Power, Defense, Crit Chance/Damage); real-time monitoring with delegates",
-          "Damage Calculation: Multi-factor formulas with Attack Power, Defense, Crit; modular Execution Calculation for damage and healing",
-          "Skill Targeting: Mouse-based range checks, vector math for distance validation, AoE calculations from cursor position",
-          "Combat Mechanics: Crit system with configurable multipliers; defense-based damage reduction; modular, extensible skill system. Link: https://github.com/xxsKyrreZLX/GasFrame"
-        ],
-        "detail": [
-          {
-            "value": "/projects/Mythos/1.jpg",
-            "type": "image"
-          },
-          {
-            "type": "paragraph",
-            "value": "Mythos is a comprehensive RPG combat system built in Unreal Engine 5 using the Gameplay Ability System (GAS). My work in the project focuses on creating a modular, scalable architecture that can handle complex combat scenarios with precise damage calculations and sophisticated skill targeting systems."
-          },          
-          {
-            "value": "/projects/Mythos/4.jpg",
-            "type": "image"
-          },
-          {
-            "type": "paragraph",
-            "value": "The attribute system manages core stats including Health, Mana, and Stamina with maximum constraints, plus combat-specific attributes like Attack Power, Defense, Critical Chance, and Critical Damage. All attributes are monitored in real-time using delegate-driven event systems for responsive UI updates and gameplay feedback."
-          },
-          {
-            "value": "/projects/Mythos/MythosGASFrame.png",
-            "type": "image"
-          },
-          {
-            "type": "paragraph",
-            "value": "The damage calculation system uses multi-factor formulas incorporating Attack Power, Defense, and Critical mechanics. Built with modular Execution Calculations, it supports both damage and healing effects. The system includes configurable critical multipliers and defense-based damage reduction for balanced combat mechanics."
-          },
-          {
-            "value": "/projects/Mythos/MouseSkillDirection.jpg",
-            "type": "image"
-          },          
-          {
-            "type": "paragraph",
-            "value": "Skill targeting utilizes mouse-based range checks and vector mathematics for precise distance validation. The system supports Area of Effect (AoE) calculations from cursor position, enabling complex skill interactions. The clean C++ architecture follows Unreal Engine best practices with efficient attribute capture and debug visualization for real-time feedback."
-          }
-        ]
-      },
       {
         "name": "BlackForest (By Venture Games)",
         "year": "2025",
-        "keywords": ["Unreal Engine 5", "Multiplayer", "Replication", "C++", "Blueprint"],
-        "shortDesc": "Developed a scalable multiplayer survival exploration system in Unreal Engine 5 with robust replication, synced player data systems, and interactive environment integration.",
+        "keywords": [
+          "Unreal Engine 5",
+          "叙事生存",
+          "探索与逃脱",
+          "相机与角色设计"
+        ],
+        "shortDesc": "在 Venture Games 实习期间参与的叙事向生存探索原型：定义核心体验为探索、合作与生存压力，围绕潜行、追逐和环境交互塑造玩法，并通过相机与角色设计强化玩家的「渺小与脆弱」感受。",
         "coverImage": "/projects/BlackForest/1.jpg",
-        "roles": ["Game Engineer", "Network Systems Designer"],
+        "roles": [
+          "生存与体验设计",
+          "系统实现"
+        ],
         "highlights": [
-          "Network Architecture: Clean replication patterns for consistent multiplayer sync of player health, hunger, and thirst systems",
-          "Interactive World Objects: Harvestable and collectible systems with network-safe replication and HUD integration",
-          "HUD Systems: Real-time UI updates on personal and team states using delegates and RepNotify for clarity and responsiveness"
+          "定义项目核心体验：探索、合作与生存压力，围绕潜行、追逐和环境交互塑造玩法基调。",
+          "与团队一起分析设计方向并协助划定 MVP 范围，聚焦支持核心体验的系统，剔除无关的次要机制。",
+          "设计玩家移动与交互系统（移动、翻越、视野/可见性机制），以及敌人巡逻、追击与感知行为，支撑「被追逐但有选择」的体验。",
+          "相机与角色形象设计：用略拉远的视角和环境尺度对比突出玩家的渺小，将角色设计为手脚细长、身形单薄，强化「弱小但敏捷」的定位，鼓励以潜行与逃跑代替正面战斗。",
+          "组织并主持高频 playtest，观察玩家行为，通过访谈、问卷和社区展示综合反馈，驱动玩法与节奏迭代。"
         ],
         "detail": [
-          {
-            "value": "/projects/BlackForest/1.jpg",
-            "type": "image"
-          },
-          {
-            "type": "paragraph",
-            "value": "BlackForest is a multiplayer survival exploration system developed in Unreal Engine 5, focusing on seamless network synchronization and immersive player experience. My work centers on implementing clean, scalable replication architecture, ensuring critical player data remains consistent across all clients while maintaining server authority."
-          },
           {
             "value": "/projects/BlackForest/2.jpg",
             "type": "image"
           },
-                      {
-              "type": "paragraph",
-              "value": "BlackForest features a dynamic multiplayer survival experience where players must manage health, hunger, and thirst while exploring a richly interactive environment. Teammates can cooperate to gather resources, share supplies, and overcome environmental challenges together. Collectible food and water sources, as well as other interactive world objects, encourage exploration and teamwork, making every session unique and engaging."
-            },
           {
-            "value": "/projects/BlackForest/3.jpg",
+            "type": "paragraph",
+            "value": "《黑森林》的概念源自 17 世纪战乱中的欧洲黑森林：玩家扮演 12 岁男孩 Jakob，在农场被士兵摧毁后独自逃入荒野。设计上希望把历史现实与民间神话交织在一起，让玩家在残酷的环境中一边求生，一边通过与讲故事的人相遇，看到不同文化与记忆被战争碾碎的过程。"
+          },
+          {
+            "value": "/projects/BlackForest/4.jpg",
             "type": "image"
           },
           {
             "type": "paragraph",
-            "value": "Throughout the project, I followed Unreal Engine best practices for multiplayer game architecture, balancing clarity with performance to build a foundation ready for future combat systems, AI, and complex environment interactions. This approach ensures players experience a stable, engaging survival environment whether playing solo or with friends."
+            "value": "为强化探索与协作，设计了可互动世界：可采集的食物与水源、可收集物与其他机关，鼓励玩家探索并分工配合，使每局体验有差异。HUD 与状态反馈的设计确保个人与队伍状态实时、清晰，便于做出共享资源与协作决策。整体在保证体验流畅与多人稳定的前提下落地实现。"
+          },
+          {
+            "type": "paragraph",
+            "value": "在实现层面采用 UE 多人最佳实践，在清晰度与性能间做权衡，为后续战斗系统、AI 与更复杂环境互动打好基础，确保玩家无论单人还是组队都能获得稳定、沉浸的多人生存体验。"
           }
         ]
-      }, 
+      },
       {
         "name": "Pirate Assassin",
         "year": "2024",
-        "keywords": [ "Unreal Engine", "Shader" ],
-        "shortDesc": "Pirate Assassin is a RPG game features gameplay systems including combat system, skills, animations, quests, and inventory management.",
+        "keywords": [
+          "Unreal Engine",
+          "动作与战斗设计",
+          "潜行刺杀",
+          "运动系统"
+        ],
+        "shortDesc": "第三人称动作 RPG 原型，负责运动系统、战斗系统与物品资源系统的设计与实现，塑造「身手矫健的刺客」体验，并围绕潜行刺杀与先躲避再反击的战斗节奏展开。",
         "coverImage": "/projects/RPG/cover.png",
-        "roles": [ "Developer", "Designer" ],
+        "roles": [
+          "游戏设计师",
+          "系统实现（C++ / Unreal）"
+        ],
         "highlights": [
-          "The movement system has various basic movements, including running, jumping, wall climbing, and vaulting",
-          "The combat system allow the player to engage in melee combat, archery, block attacks with a shield, and perform evasive rolls to dodge incoming attacks.",
-          "Inventory system enables players to gather loot through exploration, defeating enemies, or completing quests.",
-          "Implemented quest and save system to cope with game data"
+          "设计完整运动系统：包括奔跑、侧身移动、跳跃、攀爬与翻越等动作，使玩家在地形中流畅移动，符合刺客敏捷、灵活的角色定位。",
+          "设计并实现战斗系统：支持近战攻击、弓箭射击、防御与翻滚闪避；围绕潜行刺杀设计小怪战斗，并为 Boss 战斗设计「先躲避、再反击」的节奏与窗⼝。",
+          "设计物品与资源系统：支持玩家通过探索、战斗与任务获取战利品，为成长与战斗准备提供长期驱动力。",
+          "基于关卡与地形设计运动与战斗场景，使路径、掩体与高低差服务于潜行、逃脱与迂回等决策。"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "Pirate Assassin is a RPG game features gameplay systems including combat system, skills, animations, quests, and inventory management. Players engage in battles, explore quests,defeat and assassinate enemies. The project highlights my ability to be a game engineer and designer."
+            "value": "在 Pirate Assassin 中，我的目标是让玩家真正感觉自己是在操控一名身手矫健的刺客。为此，我从运动系统入手，设计了包含奔跑、侧身移动、跳跃、攀爬和翻越等在内的一整套动作，使玩家在复杂地形中可以顺畅地穿梭、翻越障碍与寻找有利位置。"
           },
           {
             "value": "/projects/RPG/1.mp4",
@@ -119,7 +85,7 @@
           },
           {
             "type": "paragraph",
-            "value": "I built the level using assets and Unreal Engine’s Landscape System. I sculpted the terrain, added textures, and placed environmental assets like buildings and foliage to create an immersive scene."
+            "value": "战斗系统围绕「潜行刺杀 + 机会反击」展开：普通敌人更适合被潜行接近后快速击杀；Boss 则通过强压力攻击与明显前摇，要求玩家先通过翻滚与走位躲避攻击，再抓住短暂破绽反击。系统支持近战连击、弓箭远程攻击、防御格挡与翻滚闪避，并通过数值和硬直时间控制风险与收益。"
           },
           {
             "value": "/projects/RPG/1.png",
@@ -127,7 +93,7 @@
           },
           {
             "type": "paragraph",
-            "value": "I also added many interesting features like riding and swimming."
+            "value": "为支撑长线体验，我设计了物品与资源系统：玩家可以通过探索场景、击败敌人和完成任务获得战利品，用于强化或解锁新玩法。关卡与地形则围绕运动与战斗体验布局，如为攀爬与翻越预留路线、为潜行提供掩体与高低差位置，让环境设计与系统设计相互呼应。"
           },
           {
             "value": "/projects/RPG/2.png",
@@ -136,21 +102,29 @@
         ]
       },
       {
-        "name": "Rendering & Shader Development",
+        "name": "材质与视觉特效设计",
         "year": "2025",
-        "keywords": [ "Shader", "OpenGL", "Rendering Pipeline", "Niagara" ],
-        "shortDesc": "Real-time visual effects and material systems created through shader programming and graphics techniques. Includes dynamic surface deformation, particle systems, and procedural material transformations.",
+        "keywords": [
+          "材质设计",
+          "视觉特效",
+          "Shader",
+          "Niagara"
+        ],
+        "shortDesc": "以设计驱动：为沉浸感与表现力设计材质与特效，从设计意图出发再落地实现。具备 Shader、粒子与渲染相关实现能力，并持续学习以更好支撑设计想法。",
         "coverImage": "/projects/TAWorks/cover.png",
-        "roles": [ "Graphics Programmer", "Rendering Engineer" ],
+        "roles": [
+          "材质与特效设计",
+          "视觉表现实现"
+        ],
         "highlights": [
-          "Real-time height map rendering and render target systems for dynamic surface deformation",
-          "Shader-based particle systems and dynamic material blending for smooth visual transitions",
-          "Procedural shader effects using masks, noise, UV manipulation, and Fresnel calculations"
+          "从沉浸感出发设计可交互雪地材质（足迹、积雪感、光照与地形），并用高度图与 Render Target 等实现。",
+          "为视觉过渡与氛围设计粒子与材质效果（变形、溶解、冰冻/燃烧等），使用 Niagara 与 Shader 实现。",
+          "在 Shadertoy 与自制渲染管线中学习实践，用 SDF、Ray Marching 等探索学习现代渲染管线如何绘制物体，持续学习理论知识和管线与工具。"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "An interactive snow material that dynamically deforms with footprints by rendering a height map. The system uses a Render Target as a canvas to capture foot patterns via ray tracing and applies them to the snow surface in real time. To handle large scenes, the canvas moves with the character, preserving footprints and fading distant ones. Snow buildup is simulated by blurring footprints, generating a height map to represent depth. Realistic lighting and terrain displacement are achieved using normal maps and Virtual Heightfield Mesh."
+            "value": "希望玩家在雪地中能感受到「踩下去、留下痕迹」的沉浸感，所以设计了可交互的雪地材质：足迹实时变形、远处逐渐淡出、积雪由模糊形成深度感，再配合法线与地形位移强化真实感。为实现这套设计，我用了 Render Target 作为画布、射线检测落点与高度图等做法，并在大场景下做了随角色移动的 canvas 以兼顾性能与表现。"
           },
           {
             "value": "/projects/TAWorks/SnowField.mp4",
@@ -158,7 +132,7 @@
           },
           {
             "type": "paragraph",
-            "value": "Built a rendering engine from scratch using modern OpenGL 3.3 Core Profile. The engine handles buffer management, custom shader compilation with file parsing, texture loading, and MVP matrix transformations. Implemented with a modular class structure and integrated ImGui for debugging. Source code available at https://github.com/xxsKyrreZLX/OpenGL."
+            "value": "为理解渲染管线并更好地把设计想法实现出来，我从零用 OpenGL 3.3 搭了一个小型渲染引擎（缓冲与材质管理、Shader 编译、纹理与 MVP 变换、ImGui 调试等），便于做效果实验和迭代。代码见 https://github.com/xxsKyrreZLX/OpenGL。这方面我会继续学习，让实现更好地服务设计目标。"
           },
           {
             "value": "/projects/TAWorks/OpenGL.png",
@@ -166,7 +140,7 @@
           },
           {
             "type": "paragraph",
-            "value": "Created various 2D and 3D shader experiments on Shadertoy using Fragment Shaders. Projects include real-time 3D scenes rendered with Signed Distance Fields (SDF) and Ray Marching, featuring interactive camera controls and realistic lighting. Also explored fractal iterations and procedural generation techniques to create dynamic patterns with neon glow effects. Available at https://www.shadertoy.com/user/xxskyrre."
+            "value": "在 Shadertoy 上做了不少 2D/3D 的 Shader 实验：用 SDF 与 Ray Marching 做实时 3D 场景与光照、用分形与程序化生成做动态图案与霓虹感等，都是为了探索「仅用片段着色器能做出怎样的氛围与表现力」。部分作品见 https://www.shadertoy.com/user/xxskyrre。"
           },
           {
             "value": "/projects/TAWorks/Shadertoy.mp4",
@@ -174,15 +148,15 @@
           },
           {
             "type": "paragraph",
-            "value": "This effect simulates a natural transformation between two objects. The dynamic material gradually turns the original object red before fading it out, while a Niagara particle stream flows from the original object to the target, visually linking the transformation. As the particles reach the target, a new object appears, creating a smooth and immersive morphing effect."
+            "value": "设计目标是让物体之间的变形在视觉上自然、有联系：原物体先泛红再淡出，Niagara 粒子从原物体飞向目标，在到达时新物体出现，形成连贯的 morphing 体验。实现上通过动态材质与粒子轨迹配合，强化沉浸感。"
           },
           {
             "value": "/projects/TAWorks/DissolveShowup.mp4",
             "type": "video"
           },
           {
-            "value": "I created dynamic materials to simulate transformations like freezing and melting transformations. By adding masks, noise, UV manipulation and special techniques like Fresnel highlights to a base texture to add depth and realism to the material.",
-            "type": "paragraph"
+            "type": "paragraph",
+            "value": "为冰冻、融化等状态变化设计材质表现，希望既有辨识度又有层次感。通过遮罩、噪声、UV 与 Fresnel 等手法在基础贴图上做深度与高光，自己实现并反复调参以达到设计意图；遇到不熟悉的管线或工具也愿意主动学，让效果更好地服务游戏体验。"
           },
           {
             "value": "/projects/TAWorks/Fire and frozen.mp4",
@@ -191,37 +165,39 @@
         ]
       },
       {
-        "name": "Working for Multimeida Project Studio(MPS)",
+        "name": "Innovation Co-Lab 兼职 | MPS (Multimedia Project Studio)",
         "year": "2025",
         "keywords": [
-          "Part time",
-          "XR Developer",
-          "Game Developer"
+          "兼职",
+          "XR 游戏设计师",
+          "用户研究",
+          "玩家观察"
         ],
-        "shortDesc": "The MPS Studio is Duke's home for developing and experiencing Virtual Reality (VR), and Augmented Reality (AR). As an XR Game Developer, I actively contribute to VR game projects with a focus on both development and deployment across various platforms.",
+        "shortDesc": "在 Duke 的 Innovation Co-Lab 担任 XR 游戏设计师，主持面向公众的 VR 体验、观察玩家行为并收集反馈，同时设计开发 VR 内容并协助学生团队落地设计与实现。",
         "coverImage": "/projects/MPS/0.jpeg",
-        "roles": [ "XR Developer", "Game Developer" ],
+        "roles": [
+          "XR 游戏设计师"
+        ],
         "highlights": [
-          "Designed skill data structures and event broadcasting using C++.",
-          "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE) and presentation elements such as visual effects and sound effects(GC).",
-          "Developed interaction rules such as combo execution, ability interruptions, and skill dependencies through tag tree.",
-          "Implemented cooldown systems, energy/mana consumption, and regeneration mechanics."
+          "主持面向公众的 VR 体验，观察玩家在沉浸体验中的行为，收集交互清晰度和参与度的反馈。",
+          "设计并开发 VR 体验，探索交互模式与玩家舒适性。",
+          "协助学生团队排查设计与实现问题，支持多平台部署与体验优化。"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "Deployment & Quality Assurance: Implement features and perform QA tasks for VR games, including debugging, plugin/engine upgrades, and cross-platform performance testing. Build and deploy VR projects on Windows (HTC Vive) and Android (Meta Quest), ensuring optimization and stability."
+            "value": "在 Durham 的 Innovation Co-Lab 兼职担任 XR 游戏设计师（2025年2月至今）。主持面向公众的 VR 体验活动，在活动中观察玩家在沉浸体验中的行为，收集关于交互清晰度和参与度的反馈，用于迭代体验设计。"
           },
           {
-            "value": "/projects/MPS/4.jpeg",
+            "value": "/projects/MPS/5.jpeg",
             "type": "image"
           },
           {
             "type": "paragraph",
-            "value": "Game development isn't just about building mechanics in an engine—it's about sharing experiences and engaging with a passionate community. We just had an amazing showcase featuring VR games created by students at Duke. I was thrilled to be part of this event, contributing to the QA and debugging, building and preparing process to ensure a smooth and immersive experience for every guest. Really glad to meet everyone who came and to all developers. I'm proud to be part of a community that shares a love for games."
+            "value": "设计并开发 VR 体验，探索交互模式与玩家舒适性的平衡；协助学生团队排查设计与实现中的问题，参与多平台构建与部署，保障体验流畅稳定。对我而言，做游戏不只是在引擎里实现机制——更是分享体验、与热爱游戏的社群一起创造与交流。我们举办了学生 VR 作品的展示活动，从筹备、调试到现场支持全程参与，让每位来访者都能顺畅体验，这份与玩家和开发者同频的体验让我特别开心。"
           },
           {
-            "value": "/projects/MPS/2.jpeg",
+            "value": "/projects/MPS/4.jpeg",
             "type": "image"
           }
         ]
@@ -229,10 +205,16 @@
       {
         "name": "Sky Arena – Combat Demo for Thali",
         "year": "2025",
-        "keywords": [ "Unreal Engine", "Gameplay Ability System" ],
+        "keywords": [
+          "Unreal Engine",
+          "Gameplay Ability System"
+        ],
         "shortDesc": "Sky Arena showcases the combat system of Thali, a third-person RPG. Built using Unreal Engine’s Gameplay Ability System, it delivers a robust and dynamic combat experience.",
         "coverImage": "/projects/SkyArena/cover.png",
-        "roles": [ "Developer", "Designer" ],
+        "roles": [
+          "Developer",
+          "Designer"
+        ],
         "highlights": [
           "Designed skill data structures and event broadcasting using C++.",
           "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE) and presentation elements such as visual effects and sound effects(GC).",
@@ -281,19 +263,26 @@
       {
         "name": "Collision Star",
         "year": "2023",
-        "keywords": [ "Unity" ],
-        "shortDesc": "Collision Star is a 2D Unity multiplayer game blending strategy and physics. Two players can collaborate or compete by modifying the environment and using reverse-drag mechanics to move players' planets.",
+        "keywords": [
+          "Unity",
+          "玩法设计",
+          "双人对抗"
+        ],
+        "shortDesc": "以玩法设计为主导的 2D 双人游戏：融合策略与物理，核心机制为「反向拖拽」移动星球，支持改环境、合作或对抗；根据玩家反馈迭代玩法与 UI。",
         "coverImage": "/projects/CollisionStar/cover.png",
-        "roles": [ "Developer", "Designer" ],
+        "roles": [
+          "玩法设计",
+          "实现"
+        ],
         "highlights": [
-          "Players navigate obstacles, collect points, and compete using reverse drag-and-drop physics system.",
-          "Players can continuously alter the game environment and interact with them and the other player.",
-          "Iterative improvements based on player feedback to enhance gameplay and UI system."
+          "设计「反向拖拽」物理操作与策略深度，让双人在改环境、躲障碍、吃道具、利用黑洞与传送门中博弈。",
+          "设计得分与随机增益，平衡竞争与趣味；环境可被双方持续改变，强化互动与决策空间。",
+          "根据玩家反馈迭代核心玩法与 UI，在 Unity 中完成设计与实现。"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "Collision Star is a 2D Unity multiplayer game blending strategy and physics. Two players can collaborate or compete by modifying the environment and using reverse-drag mechanics to move players' planets. Players score points by colliding with objects, collecting items, and outwitting opponents while avoiding hazards like black holes and teleporters. Random power-ups and dynamic gameplay ensure a fun and competitive experience. Avaliable at https://github.com/xxsKyrreZLX/CollisionStar."
+            "value": "设计目标是一款「策略 + 物理」的双人同屏游戏：核心机制是反向拖拽移动己方星球，双方可持续改变场景中的障碍与机关，通过碰撞、吃道具、利用黑洞与传送门得分或限制对方。设计中注重操作直觉与策略层次，并加入随机增益保证每局变化。开发过程中根据试玩反馈迭代规则与 UI，最终在 Unity 内完成设计与实现。项目见 https://github.com/xxsKyrreZLX/CollisionStar。"
           },
           {
             "value": "/projects/CollisionStar/CollisonStar.mp4",
@@ -302,112 +291,38 @@
         ]
       },
       {
-        "name": "Perfect World",
+        "name": "完美世界实习",
         "year": "2023",
-        "keywords": [ "Unity", "Web Design" ],
-        "shortDesc": "During my internship at Perfect World, I developed a placement and inspection system in Unity,allowing interactive weapon positioning and lighting adjustments.I also built responsive web pages using Vue 2, designing leaderboards and data search features to enhance user interaction.",
+        "keywords": [
+          "Unity",
+          "交互设计",
+          "产品功能设计"
+        ],
+        "shortDesc": "在完美世界电竞（CS:GO）实习期间，负责枪械展示与检查的交互设计及实现，以及相关网页的展示与数据功能设计，与正式团队协作落地。",
         "coverImage": "/projects/PW/PWE1.jpg",
-        "roles": [ "Technical Development Intern" ],
+        "roles": [
+          "技术开发实习（偏交互与功能设计）"
+        ],
         "highlights": [
-          "Hands-on experience in both game engine development and web technologies.",
-          "Working on real-world projects that required close collaboration with a professional team in game company",
-          "Honed my ability to address practical development challenges,workflows and deliver solutions to real production needs",
-          "Learnt from experienced engineers and experts."
+          "设计枪械摆放与检查的交互：视角、虚拟摇杆与灯光调节，让用户能直观调整武器位置与光照以更好观察与展示。",
+          "设计赛事相关网页的信息架构与功能：排行榜、数据检索等，以提升用户查找与浏览体验。",
+          "在真实项目中与团队协作，理解需求与流程，将设计落地为可用的产品。"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "I Utilized the Unity engine to design a firearm placement and inspection system in the Perfect World Esport (CS:GO). Implemented a virtual joystick and viewpoint control, enabling users to modify weapon positions and adjust lighting color tones interactively."
+            "value": "在完美世界电竞（CS:GO）项目中，从使用场景出发设计枪械摆放与检查系统：用户需要多角度查看武器并调节光照以观察细节，因此设计了虚拟摇杆与视角控制、可调节灯光色调等交互，并在 Unity 中实现，让展示与检查流程更符合实际需求。"
           },
           {
             "value": "/projects/PW/PWWeapon.jpg",
             "type": "image"
           },
           {
-            "value": "I Built associated web pages using the Vue 2 framework, with Flexible Box for responsive and structured design in the Perfect World Esport (CS:GO). Developed features including leaderboards and data search functionalities for enhanced user interaction. Product link:https://pvp.wanmei.com/",
-            "type": "paragraph"
+            "type": "paragraph",
+            "value": "针对赛事页面的用户需求，设计排行榜与数据检索等功能的信息结构与交互，使玩家能快速找到关注的数据与排名；使用 Vue 2 与响应式布局实现页面，产品见 https://pvp.wanmei.com/。在实习中与正式团队紧密配合，把设计思路落到真实产品并学习行业流程。"
           },
           {
             "value": "/projects/PW/PWE2.png",
-            "type": "image"
-          }
-        ]
-      },
-      {
-        "name": "CodeTutor",
-        "year": "2024",
-        "keywords": [ "Web Design", "Code Analyze", "Visualization" ],
-        "shortDesc": "A code visualization platform designed to enhance the learning and teaching experience for programers. It supports visualization of data structures, providing an intuitive way to understand how various data structures evolve during code execution. It also includes integrated video conferencing capabilities so that learners can get help from others.",
-        "coverImage": "/projects/CodeTutor/Cover.png",
-        "roles": [ "Web Design", "Frontend Development" ],
-        "highlights": [
-          "Supports real-time visualization of various kinds of data structures.",
-          "Provides an engaging way for programmers to see code behavior dynamically, making complex concepts easier to grasp.",
-          "Has real time communicating functions including voice and video chat and screen share."
-        ],
-        "detail": [
-          {
-            "type": "paragraph",
-            "value": "CodeTutor is a code visualization platform designed to enhance the learning and teaching experience for programers. It supports visualization of data structures, providing an intuitive way to understand how various data structures evolve during code execution. It also includes integrated video conferencing capabilities so that learners can get help from others."
-          },
-          {
-            "value": "/projects/CodeTutor/CodeTutor.mp4",
-            "type": "video"
-          },
-          {
-            "type": "paragraph",
-            "value": "Basic structure module supports real-time visualization of various kinds of data structures to help learners understand how they evolve step by step.."
-          },
-          {
-            "value": "/projects/CodeTutor/1.png",
-            "type": "image"
-          },
-          {
-            "value": "Running code module provides an engaging way for programmers to see code behavior dynamically when it is running, making complex concepts easier to grasp.",
-            "type": "paragraph"
-          },
-          {
-            "value": "/projects/CodeTutor/2.png",
-            "type": "image"
-          },
-          {
-            "value": "QA module allows learners to collaborate and seek help from instructors or peers within the platform through voice chat and screen share.",
-            "type": "paragraph"
-          },
-          {
-            "value": "/projects/CodeTutor/3.png",
-            "type": "image"
-          }
-        ]
-      },
-      {
-        "name": "Aiur Art Trading Website",
-        "year": "2022",
-        "keywords": [ "Web Design" ],
-        "shortDesc": "The Aiur Art Trading Website is a platform with both front-end and back-end functionalities. Users can manage their accounts, search by name, author, popularity, or rating, comment, buy, upload products, and view browsing history. The platform also have many features like secure password salting, dynamic password strength indicators, and responsive design.",
-        "coverImage": "/projects/ArtPlatform/image1.png",
-        "roles": [ "Frontend and Backend Development" ],
-        "highlights": [
-          "Developed using pure HTML, CSS, JavaScript, PHP, and SQL, without relying on frameworks. Getting Hands-on experience in fundamental web technologies.",
-          "Supports account management, advanced search, product uploads, purchases, comments, and browsing history tracking for a seamless user experience.",
-          "Enhanced front-end features such as product detail magnification, real-time password strength hints, and smooth scrolling windows for an improved user experience.",
-          "Password salting, secure authentication, and dynamic password strength indicators."
-        ],
-        "detail": [
-          {
-            "type": "paragraph",
-            "value": "The Aiur Art Trading Website is a platform with both front-end and back-end functionalities. Users can manage their accounts, search by name, author, popularity, or rating, comment, buy, upload products, and view browsing history. The platform also have many features like secure password salting, dynamic password strength indicators, and responsive design."
-          },
-          {
-            "value": "/projects/ArtPlatform/image1.png",
-            "type": "image"
-          },
-          {
-            "value": "/projects/ArtPlatform/image1.png",
-            "type": "image"
-          },
-          {
-            "value": "/projects/ArtPlatform/image1.png",
             "type": "image"
           }
         ]
@@ -415,31 +330,32 @@
     ],
     "skills": [
       {
-        "group": "Skills",
+        "group": "游戏设计技能",
         "skills": [
-          "Programming Languages: C/C++, C#, Cuda, PHP, SQL",
-          "Game Engines: Unreal Engine, Unity",
-          "Tools/Frameworks: Git, P4V, Vue, SpringBoot"
+          "系统设计：核心循环、机制架构、数值与平衡思路",
+          "战斗设计：节奏、技能与交互、决策空间",
+          "纸面原型与玩法迭代、玩家体验分析",
+          "访谈与问卷设计、反馈综合与设计落地"
         ]
       },
       {
-        "group": "Creative Skills",
+        "group": "游戏引擎使用与开发能力",
         "skills": [
-          "Technical Design: Niagara, VFX",
-          "Web Design: JavaScript,Vue ",
-          "Graphics Programming: WebGL"
+          "Unreal Engine、Gameplay Ability System、Unity",
+          "C++、C#、Git、Perforce，可搭建可玩原型与设计验证",
+          "对 Shader、材质与渲染管线的理解：材质与特效设计、粒子与视觉表现，能实现并配合美术优化沉浸感"
         ]
       },
       {
-        "group": "Soft Skills",
+        "group": "验证、理解玩家与用户反馈",
         "skills": [
-          "Team Collaboration: Agile Methodologies, Jira",
-          "Problem Solving: Analytical Thinking, Debugging",
-          "Communication: Documentation, Presentation"
+          "Playtest 设计与执行、观察玩家行为与体验断点",
+          "访谈与问卷设计、反馈收集与综合，驱动迭代",
+          "玩家数据与 AI 辅助分析：情感分析、反馈挖掘、NLP 工具辅助设计洞察"
         ]
       }
     ],
-    "bio": "I am deeply interested in game engineering and technical artistry, as I enjoy crafting immersive experiences through innovative mechanics, optimized systems, and compelling visual effects. Whether developing robust gameplay logic or pushing technical boundaries, I am eager to contribute my skills and creativity to build outstanding gaming experiences.",
+    "bio": "我热爱游戏，尤其偏好系统驱动的体验；不仅爱玩，也习惯从系统设计、平衡性、战斗节奏与玩家决策空间去分析机制。风暴英雄电竞选手，2019 年任队长带队获全国冠军，曾任守望先锋 OD 队伍教练——电竞与长期深度游玩让我既懂玩家心理，也更能把握策略深度与系统平衡。擅长分析与塑造游戏体验，从构想、原型到 playtest 与数据反馈形成闭环；具备 Unreal/Unity 原型能力并与程序、美术协作，能用问卷、观察与 NLP/情感分析把玩家反馈转化为设计迭代。期待在持续验证与迭代的团队里，一起做出让玩家长期沉浸的产品。",
     "bioPic": "/Lixin Zhu.jpg"
   }
 }

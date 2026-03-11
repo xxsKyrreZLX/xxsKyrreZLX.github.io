@@ -203,60 +203,51 @@
         ]
       },
       {
-        "name": "Sky Arena – Combat Demo for Thali",
+        "name": "Thali 系统设计师，战斗设计师",
         "year": "2025",
         "keywords": [
+          "系统设计师",
+          "战斗设计师",
           "Unreal Engine",
           "Gameplay Ability System"
         ],
-        "shortDesc": "Sky Arena showcases the combat system of Thali, a third-person RPG. Built using Unreal Engine’s Gameplay Ability System, it delivers a robust and dynamic combat experience.",
+        "shortDesc": "Thali 的战斗体验：作为玩法与战斗设计师，围绕「与独特龙伙伴建立连结」这一核心体验设计战斗机制、技能与敌人 AI，并通过短期心情与长期性格系统让玩家行为真正影响战斗表现。",
         "coverImage": "/projects/SkyArena/cover.png",
         "roles": [
-          "Developer",
-          "Designer"
+          "玩法设计师",
+          "战斗设计师"
         ],
         "highlights": [
-          "Designed skill data structures and event broadcasting using C++.",
-          "Implemented core combat logic, including ability activation and logic (GA), attribute management and modifications (GE) and presentation elements such as visual effects and sound effects(GC).",
-          "Developed interaction rules such as combo execution, ability interruptions, and skill dependencies through tag tree.",
-          "Implemented cooldown systems, energy/mana consumption, and regeneration mechanics."
+          "与团队共同提出并定义核心体验：「与独特龙伙伴建立连结」，以此为基准评估与取舍战斗与系统设计方向。",
+          "设计战斗机制、技能与敌人 AI（决策与技能组合），让伙伴在战斗中的行为、位置与反馈强化其性格与与玩家的连结感。",
+          "设计心情/性格与战斗行为的关联：玩家在短期内的选择影响伙伴心情，在长期逐步塑造伙伴性格，并反映在战斗倾向与行为模式上。",
+          "构建原型关卡并开展 playtest、问卷与行为观察，评估战斗清晰度、反馈节奏与玩家是否感受到「伙伴关系在变化」。",
+          "根据测试与反馈推动技能、敌人配置与节奏调整，持续迭代战斗体验。"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "Thali is a fantasy RPG that showcases the bond between the player and their dragon through its combat system. As the tech lead of the studio,I focus on building the combat system using Unreal Engine's Gameplay Ability System. This demo features Shinbi from Paragon as the character model."
+            "value": "Thali 是一款以玩家与龙伙伴关系为核心的幻想 RPG。我在项目中担任玩法与战斗设计师，重点是通过战斗机制与伙伴表现，让玩家在战斗中也能感受到「关系在变化」：伙伴并不是单纯的输出单位，而是会根据玩家的选择表现出不同的性格与战斗行为。"
           },
           {
-            "value": "/projects/SkyArena/General.png",
+            "value": "/projects/SkyArena/1.png",
             "type": "image"
           },
           {
             "type": "paragraph",
-            "value": "The combo system in Thali is built using Unreal Engine’s Gameplay Ability System (GAS), with each attack phase represented by a separate ability. During each phase, a timing window allows the player to chain into the next attack. If the player misses the input or gets interrupted, the system ensures a proper reset, so the next attack starts from the first phase."
+            "value": "围绕这一目标，我设计了战斗机制、技能与敌人 AI，并用系统图梳理它们之间的关系：技能不仅在数值和效果上有差异，也承载伙伴的性格特征；敌人 AI 在决策与技能组合上制造需要与伙伴配合的局面。通过 Unreal Engine 的 Gameplay Ability System（GAS）实现技能与状态系统，使这些要素能够围绕「伙伴与玩家如何配合」来组织，形成紧密相连的人龙战斗体验。"
           },
           {
-            "value": "/projects/SkyArena/combo.mp4",
-            "type": "video"
-          },
-          {
-            "type": "paragraph",
-            "value": "Interruption feature: a character will react and be interrupted when attacked during an action. When a skill is interrupted, it properly ends to prevent the character from entering an abnormal state."
-          },
-          {
-            "value": "/projects/SkyArena/interruption.mp4",
-            "type": "video"
+            "value": "/projects/SkyArena/2.png",
+            "type": "image"
           },
           {
             "type": "paragraph",
-            "value": "Sample skill: Dash. Dash is a fast-movement ability where the actor moves at high speed, passing through targets while applying effects to hit characters."
-          },
-          {
-            "value": "/projects/SkyArena/dash.mp4",
-            "type": "video"
+            "value": "另一张系统图展示了伙伴心情与性格如何与战斗行为联动：玩家在短期内的选择（例如是否照顾伙伴状态、是否响应其提示）会影响心情，长期则累积成性格偏好，并进一步影响伙伴在战斗中的行为倾向（更激进/更保守、优先保护玩家或输出等），共同构成「人龙羁绊」体验。"
           },
           {
             "type": "paragraph",
-            "value": "More skills and features in coming..."
+            "value": "为验证这些设计是否被玩家感知，我构建了原型关卡并组织多轮 playtest，通过问卷、访谈与行为观察评估：玩家是否能理解技能与伙伴行为的含义、是否意识到自己的选择在影响伙伴，以及战斗节奏是否清晰、有张力。根据结果对技能、敌人配置与反馈提示进行了多次迭代，使系统之间的关联既紧密又易于被体验到。"
           }
         ]
       },
